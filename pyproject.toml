@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "planificacion-alimentos"
+version = "0.1.0"
+description = ""
+authors = ["mariaisabel2 <mquinteroisabel32@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+requests = "^2.32.3"
+googletrans = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
